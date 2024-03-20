@@ -36,6 +36,8 @@ func main() {
         if update.Message.Text == "/hello" {
             msg := tgbotapi.NewMessage(update.Message.Chat.ID, "Hello, world!")
             bot.Send(msg)
+
+        
         }
     }
 }
